@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Control de inventario</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Inventario</h1>
+    </div>
+
+    <div class="content">
+      <div>
+        <p>Producto</p>
+        <div class="content-info">
+          <form>
+            <div class="field">
+              <label>Código:</label>
+              <input id="txtCode" type="text" size="35" />
+            </div>
+            <div class="field">
+              <label>Nombre:</label>
+              <input id="txtName" type="text" size="35" />
+            </div>
+            <div class="field">
+              <label>Cantidad:</label>
+              <input id="txtQuantity" type="number" size="35" />
+            </div>
+            <div class="field">
+              <label>Costo por unidad:</label>
+              <input id="txtPrice" type="number" size="35" />
+            </div>
+            <div class="field">
+                <input id="btnAdd" type="button" value="Agregar"/>
+            </div>
+            <div class="field">
+                <input id="txtDelete" type="number" size="35" />
+                <input id="btnDelete" type="button" value="Eliminar"/>
+            </div>
+            <div class="field">
+                <input id="txtSearch" type="number" size="35" />
+                <input id="btnSearch" type="button" value="Buscar"/>
+            </div>
+            <div class="field">
+                <input id="txtToList" type="number" size="35" />
+                <input id="btnToList" type="button" value="Listar"/>
+            </div>
+            <div class="field">
+                <input id="txtInvert" type="number" size="35" />
+                <input id="btnInvert" type="button" value="Invertir"/>
+            </div>
+            <div class="field">
+                <input id="txtInsert" type="number" size="35" />
+                <input id="btnInsert" type="button" value="Insertar"/>
+            </div>  
+          </form>
+        </div>
+      </div>
+
+      <div>
+        <h2>Lista de Productos</h2>
+      </div>
+
+      <div>
+        <table id= "information">
+           </table>
+     </div>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
